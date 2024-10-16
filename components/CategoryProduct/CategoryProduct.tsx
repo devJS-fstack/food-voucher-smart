@@ -6,6 +6,7 @@ import { useRouter } from "next/router";
 import NoData from "../NoData";
 import { categories } from "../../mock/category";
 import { products } from "../../mock/product";
+import { Tabs, Tab } from "@mui/material";
 
 const platforms = [
     {
@@ -34,6 +35,11 @@ const CategoryProduct = () => {
 
     const handleOnClickCategory = (id: number) => {
         setCategoryCurr(id);
+    };
+    const [value, setValue] = useState(0);
+
+    const handleChange = (event: React.SyntheticEvent, newValue: number) => {
+        setValue(newValue);
     };
 
     return (
@@ -70,28 +76,28 @@ const CategoryProduct = () => {
                     )}
                 </ul>
                 <div className="menu-restaurant-container">
-                    <ul className="menu-restaurant-category mt-4">
+                    <Tabs
+                        value={value}
+                        onChange={handleChange}
+                        variant="scrollable"
+                        scrollButtons
+                        allowScrollButtonsMobile
+                        className="menu-restaurant-category"
+                    >
                         {categories.map((category) => (
-                            <li
-                                className="menu-restaurant-category-item cursor-pointer"
+                            <Tab
+                                className="max-w-none menu-restaurant-category-item"
                                 key={category.id}
-                                onClick={() => {
-                                    handleOnClickCategory(category.id);
-                                }}
-                            >
-                                <span
-                                    className={
-                                        category.id === categoryCurr
-                                            ? "active"
-                                            : ""
-                                    }
-                                    title={category.nameCategory.toUpperCase()}
-                                >
-                                    {category.nameCategory}
-                                </span>
-                            </li>
+                                label={
+                                    <span
+                                        title={category.nameCategory.toUpperCase()}
+                                    >
+                                        {category.nameCategory}
+                                    </span>
+                                }
+                            />
                         ))}
-                    </ul>
+                    </Tabs>
 
                     <div className="tab-content">
                         <div>

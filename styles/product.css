@@ -21,22 +21,13 @@
 }
 
 .menu-restaurant-category {
-    border: 1px solid #ebebeb;
     padding: 15px 5px 15px 15px;
     margin-right: 10px;
-    background: #fff;
     border-radius: 4px;
 }
 
-.menu-restaurant-category-item {
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 5px 0;
-    padding: 2px 0;
-}
-
 .menu-restaurant-category-item span {
-    font-size: 14px;
+    font-size: 12px;
     color: #6d6f71;
     text-transform: uppercase;
     display: block;
