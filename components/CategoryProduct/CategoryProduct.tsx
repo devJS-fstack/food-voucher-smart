@@ -105,7 +105,7 @@ const CategoryProduct = () => {
                                 className="row mb-4 mb-lg-5"
                                 style={{
                                     justifyContent: products?.length
-                                        ? ""
+                                        ? "none"
                                         : "center",
                                 }}
                             >

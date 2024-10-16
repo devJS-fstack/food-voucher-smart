@@ -54,7 +54,7 @@ export const products = [
         description: "",
     },
     {
-        id: 5,
+        id: 7,
         nameProduct: "Ice Milk Black Sugar",
         favIcon:
             "https://minio.thecoffeehouse.com/image/admin/1669736835_ca-phe-sua-da_400x400.png",
@@ -63,7 +63,7 @@ export const products = [
         categoryId: 1,
     },
     {
-        id: 6,
+        id: 8,
         nameProduct: "The Ice Milk Coffee House",
         favIcon:
             "https://minio.thecoffeehouse.com/image/admin/1680709856_tagnew-dd-suada_400x400.jpg",
@@ -72,7 +72,7 @@ export const products = [
         description: "",
     },
     {
-        id: 7,
+        id: 9,
         nameProduct: "Hot Milk Coffee",
         favIcon:
             "https://minio.thecoffeehouse.com/image/admin/1639377770_cfsua-nong_400x400.jpg",
@@ -81,7 +81,7 @@ export const products = [
         description: "",
     },
     {
-        id: 8,
+        id: 10,
         nameProduct: "Fain Silver",
         favIcon:
             "https://minio.thecoffeehouse.com/image/admin/1639377904_bac-siu_400x400.jpg",
@@ -90,7 +90,7 @@ export const products = [
         description: "",
     },
     {
-        id: 9,
+        id: 11,
         nameProduct: "Hot Fain Silver",
         favIcon:
             "https://minio.thecoffeehouse.com/image/admin/1639377926_bacsiunong_400x400.jpg",
@@ -99,7 +99,7 @@ export const products = [
         description: "",
     },
     {
-        id: 10,
+        id: 12,
         nameProduct: "Ice Black Coffee",
         favIcon:
             "https://minio.thecoffeehouse.com/image/admin/1639377798_ca-phe-den-da_400x400.jpg",

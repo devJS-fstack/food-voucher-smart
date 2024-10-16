@@ -314,3 +314,11 @@ svg {
     border-color: var(--gray-200) !important;
     color: var(--gray-800) !important;
 }
+
+span {
+    font-family: "Nunito Sans"
+}
+
+.MuiTabs-indicator {
+    background-color: var(--orange-2);
+}
