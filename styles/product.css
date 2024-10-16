@@ -1,0 +1,50 @@
+.card-product-description {
+    font-weight: 400;
+    font-size: var(--space-16);
+    line-height: var(--space-22);
+    color: var(--black-2);
+}
+
+.btn-add-item {
+    height: var(--space-48);
+    background: radial-gradient(75.9% 488.28% at 24.1%,at 100%,#e87800 0,#fa8c16 100%);
+    background: radial-gradient(75.9% 488.28% at 24.1% 100%,#e87800 0,#fa8c16 100%);
+    box-shadow: 0 var(--space-2) var(--space-8) rgba(0,0,0,.12);
+    border-radius: var(--space-100);
+    font-size: var(--space-16);
+    line-height: var(--space-20);
+    margin-left: 0;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: var(--white);
+}
+
+.menu-restaurant-category {
+    border: 1px solid #ebebeb;
+    padding: 15px 5px 15px 15px;
+    margin-right: 10px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.menu-restaurant-category-item {
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 5px 0;
+    padding: 2px 0;
+}
+
+.menu-restaurant-category-item span {
+    font-size: 14px;
+    color: #6d6f71;
+    text-transform: uppercase;
+    display: block;
+    padding: 3px 7px 1px;
+    border-radius: 4px;
+}
+
+.menu-restaurant-category-item .active {
+    background-color: #959595;
+    color: #fff;
+}
